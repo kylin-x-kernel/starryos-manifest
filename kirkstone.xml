@@ -14,7 +14,7 @@
   <project name="poky"
            path="poky"/>
 
-  <project name="meta-openembedded"
+  <project name="openembedded/meta-openembedded"
            remote="github"
            revision="kirkstone"
            path="meta-openembedded"/>
