@@ -19,19 +19,16 @@
            revision="kirkstone"
            path="meta-openembedded"/>
 
-  <project name="kylin-x-kernel/meta-starry"
+
+  <project name="kylin-x-kernel/StarryOS-YOCTO"
            remote="github"
            revision="main"
            path="meta-starry"/>
 
-  <project name="rust-embedded/meta-rust-bin"
-           remote="github"
-           revision="79c077fac9694eb5fbcee7b15e800c21e887bb5d"
-           path="meta-rust-bin"/>
 
-  <project name="kylin-x-kernel/StarryOS"
+  <project name="kylin-x-kernel/arceos"
            remote="github"
-           revision="6616268162b3cad26891b1e198ec817eef25d250"
-           path="StarryOS"/>
+           revision="dev"
+           path="arceos"/>
 
 </manifest>
