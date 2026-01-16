@@ -5,34 +5,20 @@
 
   <remote name="gitee" fetch="https://gitee.com/openkylin/" review="gitee.com"/>
 
-    <!-- ============== 全局共用子仓 ============== -->
+  <default remote="github" revision="main" sync-j="8"/>
 
-  <default revision="kirkstone"
-           remote="yocto"
-           sync-j="8"/>
+  <project name="arceos" path="arceos" revision="dev"/>
+  <project name="arm-gic" path="arm-gic" revision="main" />
+  <project name="axcpu" path="axcpu" revision="df212325150f58978ec1991ce997dc94947a95ae" />
+  <project name="axdriver_crates" path="axdriver_crates" revision="dev" />
+  <project name="axplat_crates" path="axplat_crates" revision="main" />
+  <project name="axplat-aarch64-crosvm-virt" path="common/axplat-aarch64-crosvm-virt" revision="main" />
+  <project name="fdtree-rs" path="fdtree-rs" revision="main" />
+  <project name="kernel_guard" path="kernel_guard" revision="main" />
+  <project name="meta-starry" remote="gitee" path="meta-starry"/>
+  <project name="poky" path="poky" revision="kirkstone"/>
+  <project name="openembedded" path="openembedded" revision="kirkstone"/>
 
-  <project name="poky"
-           path="poky"/>
-  <project name="arceos.git" path="common/arceos" revision="main" />
-  <project name="arm-gic.git" path="common/arm-gic" revision="main" />
-  <project name="axcpu.git" path="common/axcpu" revision="main" />
-  <project name="axdriver_crates.git" path="common/axdriver_crates" revision="main" />
-  <project name="axplat_crates.git" path="common/axplat_crates" revision="main" />
-  <project name="axplat-aarch64-crosvm-virt.git" path="common/axplat-aarch64-crosvm-virt" revision="main" />
-  <project name="fdtree-rs.git" path="common/fdtree-rs" revision="main" />
-  <project name="kernel_guard.git" path="common/kernel_guard" revision="main" />
-
-
-
-  <project name="kylin-x-kernel/StarryOS-YOCTO"
-           remote="github"
-           revision="main"
-           path="StarryOS-YOCTO"/>
-
-  <project name="kylin-x-kernel/meta-starry"
-           remote="github"
-           revision="main"
-           path="meta-starry"/>
 
 </manifest>
 
