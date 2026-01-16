@@ -9,7 +9,7 @@ sudo apt update && sudo apt install -y git repo build-essential
 mkdir -p starryos-workspace && cd starryos-workspace
 
 # 初始化repo清单(starry的main分支)
-repo init -u https://github.com/kylin-x-kernel/starry-yocto-manifest -m kernel-main.xml
+repo init -u https://github.com/kylin-x-kernel/starryos-manifest -m kernel-main.xml
 
 # 同步所有源码 
 repo sync -j$(nproc) 
