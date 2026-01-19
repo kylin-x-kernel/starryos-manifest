@@ -11,7 +11,7 @@
   <project name="arm-gic" path="arm-gic" revision="main" />
   <project name="axcpu" path="axcpu" revision="df212325150f58978ec1991ce997dc94947a95ae" />
   <project name="axdriver_crates" path="axdriver_crates" revision="dev" />
-  <project name="axplat_crates" path="axplat_crates" revision="main" />
+  <project name="axplat_crates" path="axplat_crates" revision="dev" />
   <project name="axplat-aarch64-crosvm-virt" path="axplat-aarch64-crosvm-virt" revision="main" />
   <project name="fdtree-rs" path="fdtree-rs" revision="main" />
   <project name="kernel_guard" path="kernel_guard" revision="main" />
