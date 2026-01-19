@@ -2,5 +2,6 @@
 <manifest>
     <include name="base.xml" />
 
-    <project name="StarryOS" path="StarryOS" revision="main" />
+    <remote name="yeanwang666" fetch="https://github.com/yeanwang666/" />
+    <project name="StarryOS" path="StarryOS" remote="yeanwang666" revision="jij" />
 </manifest>
