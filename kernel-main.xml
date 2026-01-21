@@ -3,5 +3,5 @@
     <include name="base.xml" />
 
     <remote name="sunhaosheng" fetch="https://github.com/sunhaosheng/" />
-    <project name="StarryOS-kylin" path="StarryOS" remote="sunhaosheng" revision="change-workflow" />
+    <project name="StarryOS-kylin" path="StarryOS" remote="sunhaosheng" revision="newchangeworkflow" />
 </manifest>
