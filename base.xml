@@ -7,6 +7,7 @@
 
   <default remote="github" revision="main" sync-j="8"/>
 
+  <project name="StarryOS" path="StarryOS" revision="main" />
   <project name="arceos" path="StarryOS/arceos" revision="dev"/>
   <project name="arm-gic" path="StarryOS/local_crates/arm-gic" revision="main" />
   <project name="axcpu" path="StarryOS/local_crates/axcpu" revision="dev" />

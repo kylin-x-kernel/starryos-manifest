@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-    <include name="base.xml" />
-
-    <remote name="kylin-x-kernel" fetch="https://github.com/kylin-x-kernel/" />
-    <project name="StarryOS" path="StarryOS" remote="kylin-x-kernel" revision="main" />
-</manifest>
