@@ -2,6 +2,6 @@
 <manifest>
     <include name="base.xml" />
 
-    <remote name="yeanwang" fetch="https://github.com/yeanwang/" />
-    <project name="StarryOS" path="StarryOS" remote="yeanwang" revision="main" />
+    <remote name="kylin-x-kernel" fetch="https://github.com/kylin-x-kernel/" />
+    <project name="StarryOS" path="StarryOS" remote="kylin-x-kernel" revision="main" />
 </manifest>
