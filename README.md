@@ -29,7 +29,7 @@ repo --version
 mkdir -p starryos-workspace && cd starryos-workspace
 
 # 初始化repo清单(starry的main分支)
-repo init -u https://github.com/kylin-x-kernel/starryos-manifest -m kernel-main.xml
+repo init -u https://github.com/kylin-x-kernel/starryos-manifest -m base.xml
 
 # 同步所有源码 
 repo sync -j$(nproc) 
@@ -48,7 +48,7 @@ repo sync --force axcpu
 repo status
 
 # 重新初始化清单配置(修改清单文件后/切换清单文件时执行)
-repo init -m kernel-main.xml && repo sync -j$(nproc)
+repo init -m base.xml && repo sync -j$(nproc)
 
 ```
 ## 日常开发
