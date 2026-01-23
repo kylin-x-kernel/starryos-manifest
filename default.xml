@@ -7,13 +7,10 @@
 
   <default remote="github" revision="main" sync-j="8"/>
 
-  <!-- StarryOS 主分支 -->
   <project name="StarryOS" path="StarryOS" revision="main" />
   
-  <!-- ArceOS 核心 -->
   <project name="arceos" path="StarryOS/arceos" revision="dev"/>
   
-  <!-- StarryOS local_crates (main 分支) -->
   <project name="arm-gic" path="StarryOS/local_crates/arm-gic" revision="main" />
   <project name="axcpu" path="StarryOS/local_crates/axcpu" revision="dev" />
   <project name="axdriver_crates" path="StarryOS/local_crates/axdriver_crates" revision="dev" />
@@ -23,7 +20,6 @@
   <project name="kernel_guard" path="StarryOS/local_crates/kernel_guard" revision="main" />
   <project name="page_table_multiarch" path="StarryOS/local_crates/page_table_multiarch" revision="dev" />
   
-  <!-- Yocto 构建系统 -->
   <project name="meta-starry" remote="gitee" path="meta-starry" revision="main"/>
   <project name="poky" path="poky" revision="kirkstone"/>
   <project name="meta-openembedded" path="meta-openembedded" revision="kirkstone"/>
