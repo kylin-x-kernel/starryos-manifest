@@ -7,13 +7,10 @@
 
   <default remote="github" revision="main" sync-j="8"/>
 
-  <!-- StarryOS TEE 开发分支 -->
   <project name="StarryOS" path="StarryOS" revision="tee_support" />
   
-  <!-- ArceOS 核心 -->
   <project name="arceos" path="StarryOS/arceos" revision="dev"/>
   
-  <!-- StarryOS local_crates (tee_support 分支) -->
   <project name="arm-gic" path="StarryOS/local_crates/arm-gic" revision="main" />
   <project name="axdriver_crates" path="StarryOS/local_crates/axdriver_crates" revision="dev" />
   <project name="axplat_crates" path="StarryOS/local_crates/axplat_crates" revision="dev" />
@@ -21,7 +18,6 @@
   <project name="fdtree-rs" path="StarryOS/local_crates/fdtree-rs" revision="main" />
   <project name="tee_raw_sys" path="StarryOS/local_crates/tee_raw_sys" revision="main" />
   
-  <!-- Yocto 构建系统 -->
   <project name="meta-starry" remote="gitee" path="meta-starry" revision="main"/>
   <project name="poky" path="poky" revision="kirkstone"/>
   <project name="meta-openembedded" path="meta-openembedded" revision="kirkstone"/>
